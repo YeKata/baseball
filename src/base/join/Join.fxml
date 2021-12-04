@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="base.join.JoinController">
+   <children>
+      <Label alignment="CENTER" layoutX="127.0" layoutY="14.0" prefHeight="15.0" prefWidth="79.0" text="회원가입" textAlignment="CENTER" />
+      <Label layoutX="14.0" layoutY="52.0" text="아이디" />
+      <TextField fx:id="txtId" layoutX="97.0" layoutY="48.0" />
+      <PasswordField fx:id="txtPw" layoutX="97.0" layoutY="96.0" />
+      <PasswordField fx:id="txtPw2" layoutX="97.0" layoutY="138.0" />
+       <TextField fx:id="txtNick" layoutX="98.0" layoutY="189.0" />
+      <Label layoutX="14.0" layoutY="100.0" text="비밀번호" />
+      <Label layoutX="12.0" layoutY="142.0" text="비밀번호 확인" />
+      <Label layoutX="14.0" layoutY="193.0" text="닉네임" />
+      <Label fx:id="PwChk" alignment="CENTER" layoutX="97.0" layoutY="165.0" prefHeight="15.0" prefWidth="138.0" text="비밀번호 체크" />
+   	  <Button fx:id="btnJoin" layoutX="135.0" layoutY="231.0" mnemonicParsing="false" text="가입하기" />
+      <Label fx:id="ChkId" alignment="CENTER" layoutX="97.0" layoutY="78.0" prefHeight="15.0" prefWidth="138.0" text="아이디 체크" />
+   </children>
+</AnchorPane>

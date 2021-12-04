@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@Home.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="base.main.HomeController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="txtMs" alignment="CENTER" layoutY="190.0" prefHeight="21.0" prefWidth="600.0" text=" Press the F2 button to start. " textAlignment="CENTER" />
+      <TextField fx:id="txtF2" layoutX="231.0" layoutY="251.0" opacity="0.0" />
+   </children>
+</AnchorPane>

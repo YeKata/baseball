@@ -1,0 +1,15 @@
+AnchorPane {
+	-fx-background-image:url(image/bbfield.jpg);
+	-fx-background-repeat:no-repeat;
+	-fx-background-size:cover;
+}
+
+Label {
+	-fx-font-size: 18;
+	-fx-font-weight:bold;
+	-fx-text-fill : white;
+}
+
+TextField{
+	-fx-cursor:default ;
+}
